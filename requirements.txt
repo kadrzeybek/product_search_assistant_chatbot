@@ -1,0 +1,15 @@
+streamlit
+
+haystack-ai
+
+google-genai-haystack
+
+sentence-transformers
+
+datasets
+
+pandas
+
+python-dotenv
+
+faiss-cpu
