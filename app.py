@@ -16,10 +16,8 @@ from haystack.components.preprocessors import DocumentSplitter
 from haystack.components.writers.document_writer import DocumentWriter 
 
 # Embedding bileşenleri - metinleri vektöre çevirmek için
-from haystack.components.embedders import (
-    SentenceTransformersDocumentEmbedder,  # Dokümanları vektöre çevirir
-    SentenceTransformersTextEmbedder       # Kullanıcı sorgularını vektöre çevirir
-)
+from haystack.components.embedders.sentence_transformers_document_embedder import SentenceTransformersDocumentEmbedder  # Dokümanları vektöre çevirir
+from haystack.components.embedders.sentence_transformers_text_embedder import SentenceTransformersTextEmbedder  # Kullanıcı sorgularını vektöre çevirir
 from haystack.utils import Secret
 from haystack.components.retrievers.in_memory import InMemoryEmbeddingRetriever 
 
