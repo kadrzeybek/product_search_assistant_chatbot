@@ -2,7 +2,7 @@
 
 Bu proje, Türkiye'deki gıda ürünlerini arayabileceğiniz ve sorular sorabileceğiniz akıllı bir asistan uygulamasıdır. Haystack AI framework'ü ve Google Gemini AI modeli kullanılarak geliştirilmiştir.
 
-**Demo Link**: 
+**Demo Link**: https://searchassistant.streamlit.app/
 
 ## 📸 Uygulama Görselleri
 
@@ -50,7 +50,7 @@ Bu proje, Türkiye'deki gıda ürünlerini arayabileceğiniz ve sorular sorabile
 ### Veri Kaynağı
 - **Dataset**: `Hulusiaa/tr_food_product_catalog_with_ingredients`
 - **İçerik**: Türk gıda ürünleri kataloğu
-- **data**: 
+- **data**: 9981 row
 
 ## 🚀 Kurulum
 
