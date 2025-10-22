@@ -10,7 +10,7 @@ Bu proje, Türkiye'deki gıda ürünlerini arayabileceğiniz ve sorular sorabile
 ![Ana Sayfa](screenshoots/anasayfa.png)
 
 ### Demo - Canlı Kullanım
-![Demo](screenshoots/demoGift.gif)rkiye Ürün Kataloğu Arama Asistanı
+![Demo](screenshoots/demoGift.gif) Türkiye Ürün Kataloğu Arama Asistanı
 
 Bu proje, Türkiye'deki gıda ürünlerini arayabileceğiniz ve sorular sorabileceğiniz akıllı bir asistan uygulamasıdır. Haystack AI framework'ü ve Google Gemini AI modeli kullanılarak geliştirilmiştir.
 
