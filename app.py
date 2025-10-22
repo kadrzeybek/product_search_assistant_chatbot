@@ -13,7 +13,7 @@ from haystack import Pipeline
 from haystack.dataclasses import Document 
 from haystack.document_stores.in_memory import InMemoryDocumentStore 
 from haystack.components.preprocessors import DocumentSplitter 
-from haystack.components.writers import DocumentWriter 
+from haystack.components.writers.document_writer import DocumentWriter 
 
 # Embedding bileşenleri - metinleri vektöre çevirmek için
 from haystack.components.embedders import (
