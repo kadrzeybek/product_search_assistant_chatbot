@@ -1,6 +1,6 @@
 streamlit==1.28.1
 haystack-ai==2.6.0
-google-genai-haystack==0.8.0
+google-genai-haystack==2.2.0
 sentence-transformers==2.2.2
 datasets==2.14.6
 pandas==2.1.3
