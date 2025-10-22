@@ -2,6 +2,19 @@
 
 Bu proje, Türkiye'deki gıda ürünlerini arayabileceğiniz ve sorular sorabileceğiniz akıllı bir asistan uygulamasıdır. Haystack AI framework'ü ve Google Gemini AI modeli kullanılarak geliştirilmiştir.
 
+**Demo Link**: 
+
+## 📸 Uygulama Görselleri
+
+### Ana Sayfa
+![Ana Sayfa](screenshoots/anasayfa.png)
+
+### Demo - Canlı Kullanım
+![Demo](screenshoots/demoGift.gif)rkiye Ürün Kataloğu Arama Asistanı
+
+Bu proje, Türkiye'deki gıda ürünlerini arayabileceğiniz ve sorular sorabileceğiniz akıllı bir asistan uygulamasıdır. Haystack AI framework'ü ve Google Gemini AI modeli kullanılarak geliştirilmiştir.
+
+
 ## 📋 İçindekiler
 
 - [Özellikler](#özellikler)
@@ -11,7 +24,6 @@ Bu proje, Türkiye'deki gıda ürünlerini arayabileceğiniz ve sorular sorabile
 - [Proje Yapısı](#proje-yapısı)
 - [API Anahtarları](#api-anahtarları)
 - [Örnek Sorgular](#örnek-sorgular)
-- [Katkıda Bulunma](#katkıda-bulunma)
 
 ## ✨ Özellikler
 
@@ -38,6 +50,7 @@ Bu proje, Türkiye'deki gıda ürünlerini arayabileceğiniz ve sorular sorabile
 ### Veri Kaynağı
 - **Dataset**: `Hulusiaa/tr_food_product_catalog_with_ingredients`
 - **İçerik**: Türk gıda ürünleri kataloğu
+- **data**: 
 
 ## 🚀 Kurulum
 
@@ -94,25 +107,16 @@ Uygulama varsayılan olarak `http://localhost:8501` adresinde çalışacaktır.
 ```
 "Laktozsuz süt önerir misin?"
 "Çikolatalı bisküviler neler var?"
-"1000 TL altındaki ürünler"
 ```
 
 #### Marka Bazlı Sorgular
 ```
 "Ülker markasının ürünleri neler?"
-"Sek laktozsuz süt fiyatları"
 ```
 
 #### İçerik Bazlı Sorgular
 ```
 "Glütensiz ürünler var mı?"
-"Protein içeriği yüksek ürünler"
-```
-
-#### Fiyat Sorguları
-```
-"En ucuz süt ürünleri"
-"500 TL altındaki atıştırmalıklar"
 ```
 
 ## 📁 Proje Yapısı
